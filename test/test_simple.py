@@ -51,7 +51,7 @@ def test_simple_magic():
 
     more_info = extractor.extract_more_info(environ, userinfo)
 
-    assert more_info['tags'] == ['monkey', 'hello', 'barney']
+    assert sorted(more_info['tags']) == [u'barney', u'hello', u'monkey']
     assert len(more_info['roles']) == 5
     for role in ['HELLO', 'GOODBYE', 'CHRISTMAS', 'EASTER', 'ADMIN']:
         assert role in more_info['roles']
