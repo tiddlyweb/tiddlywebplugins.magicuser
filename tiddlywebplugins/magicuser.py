@@ -73,7 +73,7 @@ class Extractor(ExtractorInterface):
         try:
             tiddler = store.get(tiddler)
         except (NoTiddlerError, NoBagError):
-            pass # tiddler is empty
+            pass  # tiddler is empty
         if 'mapped_user' in tiddler.fields:
             username = tiddler.fields['mapped_user']
         return username
@@ -91,7 +91,7 @@ class Extractor(ExtractorInterface):
         try:
             tiddler = store.get(tiddler)
         except (NoTiddlerError, NoBagError):
-            pass # tiddler is empty
+            pass  # tiddler is empty
         if 'roles' in tiddler.fields:
             userinfo['roles'].extend(string_to_tags_list(
                 tiddler.fields['roles']))
