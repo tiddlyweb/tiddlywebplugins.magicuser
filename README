@@ -29,7 +29,3 @@ is then used during the magicuser stage.
 This plugin provides no facility for putting tiddlers in either
 the MAGICUSER or MAPUSER bags. Other code (either client side
 or server side) is expected to do that.
-
-Licensed under the same terms as TiddlyWeb. BSD License.
-
-Copyright 2011, Chris Dent <cdent@peermore.com>

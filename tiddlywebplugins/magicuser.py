@@ -28,6 +28,9 @@ used.
 This plugin works by wrapping the existing extactors configured
 for the system. It then calls the wrapped extractors before
 doing its own augmentation.
+
+Install by adding tiddlywebplugins.magicuser to system_plugins
+in tiddlywebconfig.py.
 """
 from tiddlyweb.web.extractors import ExtractorInterface
 from tiddlyweb.web.extractor import _try_extractors
