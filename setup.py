@@ -24,5 +24,6 @@ setup(
     install_requires = ['setuptools',
         'tiddlyweb',
         ],
-    zip_safe = False
+    zip_safe = False,
+    license = 'BSD'
     )
