@@ -2,7 +2,7 @@ AUTHOR = 'Chris Dent'
 AUTHOR_EMAIL = 'cdent@peermore.com'
 NAME = 'tiddlywebplugins.magicuser'
 DESCRIPTION = '"magically" extend tiddlyweb user capabilities'
-VERSION = '0.4'
+VERSION = '0.5'
 
 
 import os
