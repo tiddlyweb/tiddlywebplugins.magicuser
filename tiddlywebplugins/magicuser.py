@@ -4,7 +4,7 @@ A plugin which provides an extractor for TiddlyWeb.
 When a user is extracted, after the normal extraction
 has succeeded the user name is looked up in two ways:
 
-1) In the bag defined by 'magiuser.map' in tiddlywebconfig,
+1) In the bag defined by 'magicuser.map' in tiddlywebconfig,
 defaulting to 'MAPUSER', look for a tiddler with the title
 the same as the username. If the tiddler exists and there
 is a field named 'mapped_user', the value of that field
